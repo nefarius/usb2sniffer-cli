@@ -152,6 +152,10 @@
     <ClInclude Include="..\xbar\ft60x\ftd3xxlibrary\FTD3XX.h" />
     <ClInclude Include="..\xbar\sdram_phy.h" />
     <ClInclude Include="..\xbar\xbar.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="usb2sniffer-cli.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
