@@ -2,7 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdint.h>
+#ifdef _MSC_VER
 #include "packing.h"
+#else
+#include "../src/packing.h"
+#endif
 
 PACK(struct eb_header_s {
     uint16_t magic;             /* Magic 0x4E6F*/
