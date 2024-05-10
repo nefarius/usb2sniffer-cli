@@ -12,7 +12,11 @@
 #define CSR_ACCESSORS_DEFINED 1
 #include "csr.h"
 #include "sdram_phy.h"
+#ifdef _MSC_VER
 #include "packing.h"
+#else
+#include "../src/packing.h"
+#endif
 
 PACK(struct xbar_s {
     uint32_t magic;
