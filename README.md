@@ -2,7 +2,7 @@
 
 lcsniff-cli software for [USB2Sniffer hardware](https://github.com/lambdaconcept/usbsniffer) ([buy](http://shop.lambdaconcept.com/home/35-usb2-sniffer.html)). It currently spits out pcap but also usb files that you can load in [usb2sniffer-qt](https://github.com/lambdaconcept/usb2sniffer-qt).
 
-Linux only currently + requires [a kernel driver](https://github.com/lambdaconcept/ft60x_driver).
+On Linux it requires [a kernel driver](https://github.com/lambdaconcept/ft60x_driver).
 
 ## Build
 
